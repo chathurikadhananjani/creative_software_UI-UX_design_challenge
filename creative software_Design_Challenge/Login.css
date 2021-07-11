@@ -1,0 +1,518 @@
+:root {
+	--web-view-ids: Login_desktop,Login;
+	--web-view-name: Login_desktop;
+	--web-view-id: Login_desktop;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: false;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-actual-size-on-double-click: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: false;
+	--web-add-image-compare: false;
+	--web-show-by-media-query: true;
+	--web-application: false;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: false;
+}
+#Login_desktop,
+#Login {
+	display: none;
+}
+@media (min-width: 1280px) {
+	.mediaViewInfo {
+		--web-view-name: Login_desktop;
+		--web-view-id: Login_desktop;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Login_desktop {
+		position: absolute;
+		display: block;
+		width: 1280px;
+		height: 800px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Login_desktop;
+		--web-view-id: Login_desktop;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Component_3__11 {
+		position: absolute;
+		width: 1283px;
+		height: 2880px;
+		left: -3px;
+		top: -1832px;
+		overflow: visible;
+	}
+	#Mask_Group_1 {
+		position: absolute;
+		width: 1283px;
+		height: 2880px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Rectangle_100 {
+		opacity: 0.35;
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_100 {
+		position: absolute;
+		overflow: visible;
+		width: 351px;
+		height: 384px;
+		left: 698px;
+		top: 119px;
+	}
+	#Group_366 {
+		position: absolute;
+		width: 303px;
+		height: 146.203px;
+		left: 724px;
+		top: 203.695px;
+		overflow: visible;
+	}
+	#Union_2 {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(248,244,244,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Union_2 {
+		overflow: visible;
+		position: absolute;
+		width: 262.015px;
+		height: 25.749px;
+		left: 28.5px;
+		top: 52.497px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Component_4__4 {
+		position: absolute;
+		width: 20px;
+		height: 21px;
+		left: 0px;
+		top: 125.203px;
+		overflow: visible;
+	}
+	#Path_229 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_229 {
+		overflow: visible;
+		position: absolute;
+		width: 20px;
+		height: 21px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-check {
+		fill: rgba(0,0,0,1);
+	}
+	.Icon_awesome-check {
+		overflow: visible;
+		position: absolute;
+		width: 16.196px;
+		height: 13.336px;
+		left: 1.902px;
+		top: 3.832px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Remember_me {
+		left: 29px;
+		top: 124.203px;
+		position: absolute;
+		overflow: visible;
+		width: 100px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 16px;
+		color: rgba(249,241,241,1);
+	}
+	#Forgot_Password {
+		mix-blend-mode: soft-light;
+		left: 193px;
+		top: 124.203px;
+		position: absolute;
+		overflow: visible;
+		width: 111px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 16px;
+		color: rgba(244,244,251,1);
+	}
+	#Union_1 {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(248,244,244,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Union_1 {
+		overflow: visible;
+		position: absolute;
+		width: 262.011px;
+		height: 25.703px;
+		left: 28.5px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_368 {
+		position: absolute;
+		width: 165px;
+		height: 54px;
+		left: 783px;
+		top: 423px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Dashboard_desktop;
+		cursor: pointer;
+	}
+	#Path_110_ {
+		fill: url(#Path_110_);
+	}
+	.Path_110_ {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		overflow: visible;
+		position: absolute;
+		width: 183px;
+		height: 72px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Login_ {
+		left: 56px;
+		top: 15px;
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(109,109,112,1);
+	}
+	#Group_405 {
+		position: absolute;
+		width: 225px;
+		height: 207px;
+		left: 230px;
+		top: 143px;
+		overflow: visible;
+	}
+	#Ellipse_17 {
+		fill: rgba(251,198,59,1);
+	}
+	.Ellipse_17 {
+		position: absolute;
+		overflow: visible;
+		width: 225px;
+		height: 207px;
+		left: 0px;
+		top: 0px;
+	}
+	#Mask_Group_2 {
+		position: absolute;
+		width: 195px;
+		height: 189px;
+		left: 9px;
+		top: 9px;
+		overflow: visible;
+	}
+}
+@media (min-width: 0px) and (max-width: 1279px) {
+	.mediaViewInfo {
+		--web-view-name: Login;
+		--web-view-id: Login;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Login {
+		position: absolute;
+		display: block;
+		width: 343px;
+		height: 723px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Login;
+		--web-view-id: Login;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Component_3__1 {
+		position: absolute;
+		width: 343px;
+		height: 723px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Mask_Group_1_bc {
+		position: absolute;
+		width: 343px;
+		height: 723px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Union_2_bd {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(248,244,244,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Union_2_bd {
+		overflow: visible;
+		position: absolute;
+		width: 262.015px;
+		height: 25.749px;
+		left: 36.5px;
+		top: 302.71px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Component_4__1 {
+		position: absolute;
+		width: 20px;
+		height: 21px;
+		left: 40px;
+		top: 367px;
+		overflow: visible;
+	}
+	#Path_229_bf {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(112,112,112,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Path_229_bf {
+		overflow: visible;
+		position: absolute;
+		width: 20px;
+		height: 21px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-check_bg {
+		fill: rgba(0,0,0,1);
+	}
+	.Icon_awesome-check_bg {
+		overflow: visible;
+		position: absolute;
+		width: 16.196px;
+		height: 13.336px;
+		left: 1.902px;
+		top: 3.832px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Remember_me_bh {
+		left: 61px;
+		top: 367px;
+		position: absolute;
+		overflow: visible;
+		width: 100px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 16px;
+		color: rgba(249,241,241,1);
+	}
+	#Forgot_Password_bi {
+		mix-blend-mode: soft-light;
+		left: 201px;
+		top: 367px;
+		position: absolute;
+		overflow: visible;
+		width: 111px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 16px;
+		color: rgba(244,244,251,1);
+	}
+	#Union_1_bj {
+		fill: rgba(0,0,0,0);
+		stroke: rgba(248,244,244,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Union_1_bj {
+		overflow: visible;
+		position: absolute;
+		width: 262.011px;
+		height: 25.703px;
+		left: 36.5px;
+		top: 256.15px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Component_6__1 {
+		position: absolute;
+		width: 165px;
+		height: 54px;
+		left: 89px;
+		top: 478px;
+		overflow: visible;
+	}
+	#Path_110_bm {
+		fill: url(#Path_110_bm);
+	}
+	.Path_110_bm {
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		overflow: visible;
+		position: absolute;
+		width: 183px;
+		height: 72px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+		--web-animation: fadein 1.5s ease-in;
+		--web-action-type: view;
+		--web-action-target: Dashboard;
+		cursor: pointer;
+	}
+	#Login_bn {
+		left: 145px;
+		top: 493px;
+		position: absolute;
+		overflow: visible;
+		width: 48px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18px;
+		color: rgba(109,109,112,1);
+	}
+	#Group_363 {
+		position: absolute;
+		width: 174px;
+		height: 160px;
+		left: 88px;
+		top: 89px;
+		overflow: visible;
+	}
+	#Ellipse_17_bp {
+		fill: rgba(251,198,59,1);
+	}
+	.Ellipse_17_bp {
+		position: absolute;
+		overflow: visible;
+		width: 174px;
+		height: 160px;
+		left: 0px;
+		top: 0px;
+	}
+	#Mask_Group_2_bq {
+		position: absolute;
+		width: 151px;
+		height: 146px;
+		left: 7px;
+		top: 7px;
+		overflow: visible;
+	}
+}

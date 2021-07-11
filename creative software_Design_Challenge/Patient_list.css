@@ -1,0 +1,3363 @@
+:root {
+	--web-view-ids: Patient_list,Patient_list_desktop;
+	--web-view-name: Patient list_desktop;
+	--web-view-id: Patient_list_desktop;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: fit;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-show-scale-controls: false;
+	--web-scale-on-double-click: false;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-actual-size-on-double-click: false;
+	--web-navigate-on-keypress: false;
+	--web-refresh-for-changes: false;
+	--web-add-image-compare: false;
+	--web-show-by-media-query: true;
+	--web-application: false;
+	--web-show-navigation-controls: false;
+	--web-enable-deep-linking: true;
+	--web-is-overlay: false;
+}
+#Patient_list,
+#Patient_list_desktop {
+	display: none;
+}
+@media (min-width: 0px) and (max-width: 1279px) {
+	.mediaViewInfo {
+		--web-view-name: Patient list;
+		--web-view-id: Patient_list;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Patient_list {
+		position: absolute;
+		display: block;
+		width: 375px;
+		height: 812px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Patient list;
+		--web-view-id: Patient_list;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Component_3__5 {
+		position: absolute;
+		width: 375px;
+		height: 812px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Mask_Group_1 {
+		position: absolute;
+		width: 375px;
+		height: 812px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#left-arrow {
+		position: absolute;
+		width: 45px;
+		height: 45px;
+		left: 21.741px;
+		top: 19px;
+		overflow: visible;
+		transition: all 0.4s ease-out;
+		--web-animation: fadein 0.4s ease-out;
+		--web-action-type: view;
+		--web-action-target: Find_patient;
+		cursor: pointer;
+	}
+	#Ellipse_29 {
+		fill: rgba(255,212,0,1);
+	}
+	.Ellipse_29 {
+		position: absolute;
+		overflow: visible;
+		width: 45px;
+		height: 45px;
+		left: 0px;
+		top: 0px;
+	}
+	#Path_230 {
+		fill: rgba(255,159,0,1);
+	}
+	.Path_230 {
+		overflow: visible;
+		position: absolute;
+		width: 32.445px;
+		height: 26.535px;
+		left: 11.307px;
+		top: 16.768px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_231 {
+		fill: rgba(90,90,90,1);
+	}
+	.Path_231 {
+		overflow: visible;
+		position: absolute;
+		width: 24.87px;
+		height: 16.544px;
+		left: 10.262px;
+		top: 14.313px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_232 {
+		fill: rgba(43,59,78,1);
+	}
+	.Path_232 {
+		overflow: visible;
+		position: absolute;
+		width: 24.769px;
+		height: 8.171px;
+		left: 10.363px;
+		top: 22.686px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_414 {
+		opacity: 0.72;
+		fill: rgba(255,255,255,1);
+	}
+	.Path_414 {
+		overflow: visible;
+		position: absolute;
+		width: 377.915px;
+		height: 805.161px;
+		left: -2.805px;
+		top: 6.839px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Arrow_138_ {
+		position: absolute;
+		width: 37.994px;
+		height: 37.994px;
+		left: 315.265px;
+		top: 26.006px;
+		overflow: visible;
+	}
+	#Group_174 {
+		position: absolute;
+		width: 36.542px;
+		height: 20.036px;
+		left: 1.452px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_173 {
+		position: absolute;
+		width: 36.542px;
+		height: 20.036px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_261_ {
+		fill: url(#Path_261_);
+	}
+	.Path_261_ {
+		overflow: visible;
+		position: absolute;
+		width: 36.542px;
+		height: 20.036px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_176 {
+		position: absolute;
+		width: 36.544px;
+		height: 20.036px;
+		left: 0px;
+		top: 17.958px;
+		overflow: visible;
+	}
+	#Group_175 {
+		position: absolute;
+		width: 36.544px;
+		height: 20.036px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_262_ {
+		fill: url(#Path_262_);
+	}
+	.Path_262_ {
+		overflow: visible;
+		position: absolute;
+		width: 36.544px;
+		height: 20.036px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Patient_List {
+		left: 127.741px;
+		top: 31px;
+		position: absolute;
+		overflow: visible;
+		width: 132px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 25px;
+		color: rgba(250,210,77,1);
+	}
+	#Group_181 {
+		position: absolute;
+		width: 353px;
+		height: 151px;
+		left: 11px;
+		top: 156px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Patient_Page;
+		cursor: pointer;
+	}
+	#Rectangle_55 {
+		opacity: 0.46;
+		fill: rgba(66,132,188,1);
+	}
+	.Rectangle_55 {
+		filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 383px;
+		height: 181px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_awesome-user-alt {
+		fill: rgba(66,132,188,1);
+	}
+	.Icon_awesome-user-alt {
+		overflow: visible;
+		position: absolute;
+		width: 36px;
+		height: 36px;
+		left: 16.1px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Patient_name {
+		left: 60px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 131px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 21px;
+		color: rgba(36,114,179,1);
+	}
+	#Rectangle_57 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_57 {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 33px;
+		top: 103px;
+	}
+	#Patient_id_ {
+		opacity: 0.91;
+		left: 7px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_58 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_58 {
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		height: 27px;
+		left: 130px;
+		top: 103px;
+	}
+	#____Ward_ {
+		opacity: 0.91;
+		left: 95px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Start_Date_ {
+		opacity: 0.91;
+		left: 186px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_59 {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_59 {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 216px;
+		top: 103px;
+	}
+	#Rectangle_60 {
+		fill: rgba(35,117,183,1);
+	}
+	.Rectangle_60 {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 38px;
+		left: 259px;
+		top: 12px;
+	}
+	#Status {
+		left: 277px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(250,210,77,1);
+	}
+	#Ellipse_30 {
+		fill: rgba(35,117,183,1);
+	}
+	.Ellipse_30 {
+		position: absolute;
+		overflow: visible;
+		width: 32px;
+		height: 33px;
+		left: 310px;
+		top: 97px;
+	}
+	#Icon_ionic-ios-arrow-dropright {
+		fill: rgba(174,199,224,1);
+	}
+	.Icon_ionic-ios-arrow-dropright {
+		overflow: visible;
+		position: absolute;
+		width: 23.731px;
+		height: 23.731px;
+		left: 314px;
+		top: 101.634px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_179 {
+		position: absolute;
+		width: 353px;
+		height: 151px;
+		left: 11px;
+		top: 319px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Patient_Page;
+		cursor: pointer;
+	}
+	#Rectangle_55_bo {
+		opacity: 0.46;
+		fill: rgba(66,132,188,1);
+	}
+	.Rectangle_55_bo {
+		filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 383px;
+		height: 181px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_awesome-user-alt_bp {
+		fill: rgba(66,132,188,1);
+	}
+	.Icon_awesome-user-alt_bp {
+		overflow: visible;
+		position: absolute;
+		width: 36px;
+		height: 36px;
+		left: 22.1px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Patient_name_bq {
+		left: 63px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 131px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 21px;
+		color: rgba(36,114,179,1);
+	}
+	#Rectangle_57_br {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_57_br {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 39px;
+		top: 103px;
+	}
+	#Patient_id__bs {
+		opacity: 0.91;
+		left: 13px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_58_bt {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_58_bt {
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		height: 27px;
+		left: 132px;
+		top: 103px;
+	}
+	#____Ward__bu {
+		opacity: 0.91;
+		left: 96px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Start_Date__bv {
+		opacity: 0.91;
+		left: 184px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_59_bw {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_59_bw {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 213px;
+		top: 103px;
+	}
+	#Rectangle_60_bx {
+		fill: rgba(35,117,183,1);
+	}
+	.Rectangle_60_bx {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 38px;
+		left: 253px;
+		top: 12px;
+	}
+	#Status_by {
+		left: 271px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(250,210,77,1);
+	}
+	#Ellipse_30_bz {
+		fill: rgba(35,117,183,1);
+	}
+	.Ellipse_30_bz {
+		position: absolute;
+		overflow: visible;
+		width: 32px;
+		height: 33px;
+		left: 304px;
+		top: 97px;
+	}
+	#Icon_ionic-ios-arrow-dropright_b {
+		fill: rgba(174,199,224,1);
+	}
+	.Icon_ionic-ios-arrow-dropright_b {
+		overflow: visible;
+		position: absolute;
+		width: 23.731px;
+		height: 23.731px;
+		left: 308px;
+		top: 101.634px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_180 {
+		position: absolute;
+		width: 353px;
+		height: 151px;
+		left: 11px;
+		top: 482px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Patient_Page;
+		cursor: pointer;
+	}
+	#Rectangle_55_b {
+		opacity: 0.46;
+		fill: rgba(66,132,188,1);
+	}
+	.Rectangle_55_b {
+		filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 383px;
+		height: 181px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_awesome-user-alt_b {
+		fill: rgba(66,132,188,1);
+	}
+	.Icon_awesome-user-alt_b {
+		overflow: visible;
+		position: absolute;
+		width: 36px;
+		height: 36px;
+		left: 22.1px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Patient_name_b {
+		left: 63px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 131px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 21px;
+		color: rgba(36,114,179,1);
+	}
+	#Rectangle_57_b {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_57_b {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 39px;
+		top: 103px;
+	}
+	#Patient_id__b {
+		opacity: 0.91;
+		left: 13px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_58_b {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_58_b {
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		height: 27px;
+		left: 132px;
+		top: 103px;
+	}
+	#____Ward__b {
+		opacity: 0.91;
+		left: 96px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Start_Date__b {
+		opacity: 0.91;
+		left: 184px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_59_ca {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_59_ca {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 213px;
+		top: 103px;
+	}
+	#Rectangle_60_cb {
+		fill: rgba(35,117,183,1);
+	}
+	.Rectangle_60_cb {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 38px;
+		left: 253px;
+		top: 12px;
+	}
+	#Status_cc {
+		left: 271px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(250,210,77,1);
+	}
+	#Group_350 {
+		position: absolute;
+		width: 32px;
+		height: 33px;
+		left: 304px;
+		top: 97px;
+		overflow: visible;
+	}
+	#Ellipse_30_ce {
+		fill: rgba(35,117,183,1);
+	}
+	.Ellipse_30_ce {
+		position: absolute;
+		overflow: visible;
+		width: 32px;
+		height: 33px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_ionic-ios-arrow-dropright_cf {
+		fill: rgba(174,199,224,1);
+	}
+	.Icon_ionic-ios-arrow-dropright_cf {
+		overflow: visible;
+		position: absolute;
+		width: 23.731px;
+		height: 23.731px;
+		left: 4px;
+		top: 4.634px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_351 {
+		position: absolute;
+		width: 32px;
+		height: 33px;
+		left: 304px;
+		top: 97px;
+		overflow: visible;
+	}
+	#Ellipse_30_ch {
+		fill: rgba(35,117,183,1);
+	}
+	.Ellipse_30_ch {
+		position: absolute;
+		overflow: visible;
+		width: 32px;
+		height: 33px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_ionic-ios-arrow-dropright_ci {
+		fill: rgba(174,199,224,1);
+	}
+	.Icon_ionic-ios-arrow-dropright_ci {
+		overflow: visible;
+		position: absolute;
+		width: 23.731px;
+		height: 23.731px;
+		left: 4px;
+		top: 4.634px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_418 {
+		opacity: 0.99;
+		fill: rgba(65,89,128,1);
+	}
+	.Path_418 {
+		overflow: visible;
+		position: absolute;
+		width: 375px;
+		height: 137.063px;
+		left: 0px;
+		top: 674.937px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_593 {
+		opacity: 0.67;
+		fill: rgba(35,117,183,1);
+	}
+	.Path_593 {
+		overflow: visible;
+		position: absolute;
+		width: 375px;
+		height: 76.449px;
+		left: 0px;
+		top: 735.551px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_361 {
+		position: absolute;
+		width: 350px;
+		height: 61px;
+		left: 13px;
+		top: 743px;
+		overflow: visible;
+	}
+	#Group_360 {
+		position: absolute;
+		width: 350px;
+		height: 42px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_359 {
+		position: absolute;
+		width: 350px;
+		height: 42px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_352 {
+		position: absolute;
+		width: 42px;
+		height: 42px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_30_cp {
+		fill: rgba(43,128,197,1);
+	}
+	.Ellipse_30_cp {
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		height: 42px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_353 {
+		position: absolute;
+		width: 42px;
+		height: 42px;
+		left: 77px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_30_cr {
+		fill: rgba(43,128,197,1);
+	}
+	.Ellipse_30_cr {
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		height: 42px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_354 {
+		position: absolute;
+		width: 42px;
+		height: 42px;
+		left: 154px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_30_ct {
+		fill: rgba(43,128,197,1);
+	}
+	.Ellipse_30_ct {
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		height: 42px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_357 {
+		position: absolute;
+		width: 42px;
+		height: 42px;
+		left: 231px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_30_cv {
+		fill: rgba(43,128,197,1);
+	}
+	.Ellipse_30_cv {
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		height: 42px;
+		left: 0px;
+		top: 0px;
+	}
+	#Group_358 {
+		position: absolute;
+		width: 42px;
+		height: 42px;
+		left: 308px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Ellipse_30_cx {
+		fill: rgba(43,128,197,1);
+	}
+	.Ellipse_30_cx {
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		height: 42px;
+		left: 0px;
+		top: 0px;
+	}
+	#Ward {
+		left: 3px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(250,210,77,1);
+	}
+	#Section {
+		left: 71px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(250,210,77,1);
+	}
+	#Location {
+		left: 145px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(250,210,77,1);
+	}
+	#Department {
+		left: 216px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(250,210,77,1);
+	}
+	#Sort {
+		left: 315px;
+		top: 42px;
+		position: absolute;
+		overflow: visible;
+		width: 29px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(250,210,77,1);
+	}
+	#sort-descending_1 {
+		position: absolute;
+		width: 23.794px;
+		height: 23.794px;
+		left: 329.68px;
+		top: 751.369px;
+		overflow: visible;
+	}
+	#Path_594 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_594 {
+		overflow: visible;
+		position: absolute;
+		width: 9.806px;
+		height: 4.903px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_595 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_595 {
+		overflow: visible;
+		position: absolute;
+		width: 14.468px;
+		height: 4.903px;
+		left: 0px;
+		top: 6.297px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_596 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_596 {
+		overflow: visible;
+		position: absolute;
+		width: 19.131px;
+		height: 4.903px;
+		left: 0px;
+		top: 12.594px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_597 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_597 {
+		overflow: visible;
+		position: absolute;
+		width: 23.794px;
+		height: 4.903px;
+		left: 0px;
+		top: 18.891px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_598 {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_598 {
+		overflow: visible;
+		position: absolute;
+		width: 11.899px;
+		height: 6.97px;
+		left: 11.895px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-bed {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-bed {
+		overflow: visible;
+		position: absolute;
+		width: 30.787px;
+		height: 19.469px;
+		left: 18.453px;
+		top: 753.531px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_material-location-on {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_material-location-on {
+		overflow: visible;
+		position: absolute;
+		width: 21px;
+		height: 30px;
+		left: 176px;
+		top: 748px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#sections {
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		left: 98px;
+		top: 750px;
+		overflow: visible;
+	}
+	#Path_599 {
+		fill: rgba(240,245,250,1);
+	}
+	.Path_599 {
+		overflow: visible;
+		position: absolute;
+		width: 11px;
+		height: 6px;
+		left: 13px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_600 {
+		fill: rgba(240,245,250,1);
+	}
+	.Path_600 {
+		overflow: visible;
+		position: absolute;
+		width: 11px;
+		height: 6px;
+		left: 13px;
+		top: 9px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_601 {
+		fill: rgba(240,245,250,1);
+	}
+	.Path_601 {
+		overflow: visible;
+		position: absolute;
+		width: 11px;
+		height: 6px;
+		left: 13px;
+		top: 18px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_602 {
+		fill: rgba(240,245,250,1);
+	}
+	.Path_602 {
+		overflow: visible;
+		position: absolute;
+		width: 11px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-building {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-building {
+		overflow: visible;
+		position: absolute;
+		width: 20.68px;
+		height: 23.635px;
+		left: 255px;
+		top: 751.448px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+}
+@media (min-width: 1280px) {
+	.mediaViewInfo {
+		--web-view-name: Patient list_desktop;
+		--web-view-id: Patient_list_desktop;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#Patient_list_desktop {
+		position: absolute;
+		display: block;
+		width: 1280px;
+		height: 800px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Patient list_desktop;
+		--web-view-id: Patient_list_desktop;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-enable-scale-up: true;
+		--web-scale-on-resize: true;
+		--web-center-horizontally: true;
+		--web-center-vertically: true;
+		--web-show-by-media-query: true;
+		--web-enable-deep-linking: true;
+	}
+	@keyframes fadein {
+	
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	
+	}
+	#Component_3__17 {
+		position: absolute;
+		width: 1280px;
+		height: 2383px;
+		left: 0px;
+		top: -1321px;
+		overflow: visible;
+	}
+	#Mask_Group_1_dk {
+		position: absolute;
+		width: 1280px;
+		height: 2383px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_413 {
+		opacity: 0.72;
+		fill: rgba(255,255,255,1);
+	}
+	.Path_413 {
+		overflow: visible;
+		position: absolute;
+		width: 1287.704px;
+		height: 1726.606px;
+		left: -3.158px;
+		top: -47.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Patient_List_dm {
+		left: 579px;
+		top: 54px;
+		position: absolute;
+		overflow: visible;
+		width: 205px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 39px;
+		color: rgba(250,210,77,1);
+	}
+	#Group_181_dn {
+		position: absolute;
+		width: 353px;
+		height: 151px;
+		left: 283px;
+		top: 192px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Patient_page_desktop;
+		cursor: pointer;
+	}
+	#Rectangle_55_do {
+		opacity: 0.46;
+		fill: rgba(66,132,188,1);
+	}
+	.Rectangle_55_do {
+		filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 383px;
+		height: 181px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_awesome-user-alt_dp {
+		fill: rgba(66,132,188,1);
+	}
+	.Icon_awesome-user-alt_dp {
+		overflow: visible;
+		position: absolute;
+		width: 36px;
+		height: 36px;
+		left: 16.1px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Patient_name_dq {
+		left: 60px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 131px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 21px;
+		color: rgba(36,114,179,1);
+	}
+	#Rectangle_57_dr {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_57_dr {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 33px;
+		top: 103px;
+	}
+	#Patient_id__ds {
+		opacity: 0.91;
+		left: 7px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_58_dt {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_58_dt {
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		height: 27px;
+		left: 130px;
+		top: 103px;
+	}
+	#____Ward__du {
+		opacity: 0.91;
+		left: 95px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Start_Date__dv {
+		opacity: 0.91;
+		left: 186px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_59_dw {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_59_dw {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 216px;
+		top: 103px;
+	}
+	#Rectangle_60_dx {
+		fill: rgba(35,117,183,1);
+	}
+	.Rectangle_60_dx {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 38px;
+		left: 259px;
+		top: 12px;
+	}
+	#Status_dy {
+		left: 277px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(250,210,77,1);
+	}
+	#Ellipse_30_dz {
+		fill: rgba(35,117,183,1);
+	}
+	.Ellipse_30_dz {
+		position: absolute;
+		overflow: visible;
+		width: 32px;
+		height: 33px;
+		left: 310px;
+		top: 97px;
+	}
+	#Icon_ionic-ios-arrow-dropright_d {
+		fill: rgba(174,199,224,1);
+	}
+	.Icon_ionic-ios-arrow-dropright_d {
+		overflow: visible;
+		position: absolute;
+		width: 23.731px;
+		height: 23.731px;
+		left: 314px;
+		top: 101.634px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_179_d {
+		position: absolute;
+		width: 353px;
+		height: 151px;
+		left: 283px;
+		top: 377px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Patient_page_desktop;
+		cursor: pointer;
+	}
+	#Rectangle_55_d {
+		opacity: 0.46;
+		fill: rgba(66,132,188,1);
+	}
+	.Rectangle_55_d {
+		filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 383px;
+		height: 181px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_awesome-user-alt_d {
+		fill: rgba(66,132,188,1);
+	}
+	.Icon_awesome-user-alt_d {
+		overflow: visible;
+		position: absolute;
+		width: 36px;
+		height: 36px;
+		left: 22.1px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Patient_name_d {
+		left: 63px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 131px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 21px;
+		color: rgba(36,114,179,1);
+	}
+	#Rectangle_57_d {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_57_d {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 39px;
+		top: 103px;
+	}
+	#Patient_id__d {
+		opacity: 0.91;
+		left: 13px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_58_d {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_58_d {
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		height: 27px;
+		left: 132px;
+		top: 103px;
+	}
+	#____Ward__d {
+		opacity: 0.91;
+		left: 96px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Start_Date__d {
+		opacity: 0.91;
+		left: 184px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_59_ea {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_59_ea {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 213px;
+		top: 103px;
+	}
+	#Rectangle_60_eb {
+		fill: rgba(35,117,183,1);
+	}
+	.Rectangle_60_eb {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 38px;
+		left: 253px;
+		top: 12px;
+	}
+	#Status_ec {
+		left: 271px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(250,210,77,1);
+	}
+	#Ellipse_30_ed {
+		fill: rgba(35,117,183,1);
+	}
+	.Ellipse_30_ed {
+		position: absolute;
+		overflow: visible;
+		width: 32px;
+		height: 33px;
+		left: 304px;
+		top: 97px;
+	}
+	#Icon_ionic-ios-arrow-dropright_ee {
+		fill: rgba(174,199,224,1);
+	}
+	.Icon_ionic-ios-arrow-dropright_ee {
+		overflow: visible;
+		position: absolute;
+		width: 23.731px;
+		height: 23.731px;
+		left: 308px;
+		top: 101.634px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_180_ef {
+		position: absolute;
+		width: 353px;
+		height: 151px;
+		left: 283px;
+		top: 562px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Patient_page_desktop;
+		cursor: pointer;
+	}
+	#Rectangle_55_eg {
+		opacity: 0.46;
+		fill: rgba(66,132,188,1);
+	}
+	.Rectangle_55_eg {
+		filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 383px;
+		height: 181px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_awesome-user-alt_eh {
+		fill: rgba(66,132,188,1);
+	}
+	.Icon_awesome-user-alt_eh {
+		overflow: visible;
+		position: absolute;
+		width: 36px;
+		height: 36px;
+		left: 22.1px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Patient_name_ei {
+		left: 63px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 131px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 21px;
+		color: rgba(36,114,179,1);
+	}
+	#Rectangle_57_ej {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_57_ej {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 39px;
+		top: 103px;
+	}
+	#Patient_id__ek {
+		opacity: 0.91;
+		left: 13px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_58_el {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_58_el {
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		height: 27px;
+		left: 132px;
+		top: 103px;
+	}
+	#____Ward__em {
+		opacity: 0.91;
+		left: 96px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Start_Date__en {
+		opacity: 0.91;
+		left: 184px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_59_eo {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_59_eo {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 213px;
+		top: 103px;
+	}
+	#Rectangle_60_ep {
+		fill: rgba(35,117,183,1);
+	}
+	.Rectangle_60_ep {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 38px;
+		left: 253px;
+		top: 12px;
+	}
+	#Status_eq {
+		left: 271px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(250,210,77,1);
+	}
+	#Group_350_er {
+		position: absolute;
+		width: 32px;
+		height: 33px;
+		left: 304px;
+		top: 97px;
+		overflow: visible;
+	}
+	#Ellipse_30_es {
+		fill: rgba(35,117,183,1);
+	}
+	.Ellipse_30_es {
+		position: absolute;
+		overflow: visible;
+		width: 32px;
+		height: 33px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_ionic-ios-arrow-dropright_et {
+		fill: rgba(174,199,224,1);
+	}
+	.Icon_ionic-ios-arrow-dropright_et {
+		overflow: visible;
+		position: absolute;
+		width: 23.731px;
+		height: 23.731px;
+		left: 4px;
+		top: 4.634px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_351_eu {
+		position: absolute;
+		width: 32px;
+		height: 33px;
+		left: 304px;
+		top: 97px;
+		overflow: visible;
+	}
+	#Ellipse_30_ev {
+		fill: rgba(35,117,183,1);
+	}
+	.Ellipse_30_ev {
+		position: absolute;
+		overflow: visible;
+		width: 32px;
+		height: 33px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_ionic-ios-arrow-dropright_ew {
+		fill: rgba(174,199,224,1);
+	}
+	.Icon_ionic-ios-arrow-dropright_ew {
+		overflow: visible;
+		position: absolute;
+		width: 23.731px;
+		height: 23.731px;
+		left: 4px;
+		top: 4.634px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_382 {
+		position: absolute;
+		width: 353px;
+		height: 151px;
+		left: 662px;
+		top: 192px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Patient_page_desktop;
+		cursor: pointer;
+	}
+	#Rectangle_55_ey {
+		opacity: 0.46;
+		fill: rgba(66,132,188,1);
+	}
+	.Rectangle_55_ey {
+		filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 383px;
+		height: 181px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_awesome-user-alt_ez {
+		fill: rgba(66,132,188,1);
+	}
+	.Icon_awesome-user-alt_ez {
+		overflow: visible;
+		position: absolute;
+		width: 36px;
+		height: 36px;
+		left: 16.1px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Patient_name_e {
+		left: 60px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 131px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 21px;
+		color: rgba(36,114,179,1);
+	}
+	#Rectangle_57_e {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_57_e {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 33px;
+		top: 103px;
+	}
+	#Patient_id__e {
+		opacity: 0.91;
+		left: 7px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_58_e {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_58_e {
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		height: 27px;
+		left: 130px;
+		top: 103px;
+	}
+	#____Ward__e {
+		opacity: 0.91;
+		left: 95px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Start_Date__e {
+		opacity: 0.91;
+		left: 186px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_59_e {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_59_e {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 216px;
+		top: 103px;
+	}
+	#Rectangle_60_e {
+		fill: rgba(35,117,183,1);
+	}
+	.Rectangle_60_e {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 38px;
+		left: 259px;
+		top: 12px;
+	}
+	#Status_e {
+		left: 277px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(250,210,77,1);
+	}
+	#Ellipse_30_e {
+		fill: rgba(35,117,183,1);
+	}
+	.Ellipse_30_e {
+		position: absolute;
+		overflow: visible;
+		width: 32px;
+		height: 33px;
+		left: 310px;
+		top: 97px;
+	}
+	#Icon_ionic-ios-arrow-dropright_fa {
+		fill: rgba(174,199,224,1);
+	}
+	.Icon_ionic-ios-arrow-dropright_fa {
+		overflow: visible;
+		position: absolute;
+		width: 23.731px;
+		height: 23.731px;
+		left: 314px;
+		top: 101.634px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_383 {
+		position: absolute;
+		width: 353px;
+		height: 151px;
+		left: 662px;
+		top: 377px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Patient_page_desktop;
+		cursor: pointer;
+	}
+	#Rectangle_55_fc {
+		opacity: 0.46;
+		fill: rgba(66,132,188,1);
+	}
+	.Rectangle_55_fc {
+		filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 383px;
+		height: 181px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_awesome-user-alt_fd {
+		fill: rgba(66,132,188,1);
+	}
+	.Icon_awesome-user-alt_fd {
+		overflow: visible;
+		position: absolute;
+		width: 36px;
+		height: 36px;
+		left: 16.1px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Patient_name_fe {
+		left: 60px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 131px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 21px;
+		color: rgba(36,114,179,1);
+	}
+	#Rectangle_57_ff {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_57_ff {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 33px;
+		top: 103px;
+	}
+	#Patient_id__fg {
+		opacity: 0.91;
+		left: 7px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_58_fh {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_58_fh {
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		height: 27px;
+		left: 130px;
+		top: 103px;
+	}
+	#____Ward__fi {
+		opacity: 0.91;
+		left: 95px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Start_Date__fj {
+		opacity: 0.91;
+		left: 186px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_59_fk {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_59_fk {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 216px;
+		top: 103px;
+	}
+	#Rectangle_60_fl {
+		fill: rgba(35,117,183,1);
+	}
+	.Rectangle_60_fl {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 38px;
+		left: 259px;
+		top: 12px;
+	}
+	#Status_fm {
+		left: 277px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(250,210,77,1);
+	}
+	#Ellipse_30_fn {
+		fill: rgba(35,117,183,1);
+	}
+	.Ellipse_30_fn {
+		position: absolute;
+		overflow: visible;
+		width: 32px;
+		height: 33px;
+		left: 310px;
+		top: 97px;
+	}
+	#Icon_ionic-ios-arrow-dropright_fo {
+		fill: rgba(174,199,224,1);
+	}
+	.Icon_ionic-ios-arrow-dropright_fo {
+		overflow: visible;
+		position: absolute;
+		width: 23.731px;
+		height: 23.731px;
+		left: 314px;
+		top: 101.634px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_384 {
+		position: absolute;
+		width: 353px;
+		height: 151px;
+		left: 662px;
+		top: 562px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Patient_page_desktop;
+		cursor: pointer;
+	}
+	#Rectangle_55_fq {
+		opacity: 0.46;
+		fill: rgba(66,132,188,1);
+	}
+	.Rectangle_55_fq {
+		filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		overflow: visible;
+		width: 383px;
+		height: 181px;
+		left: 0px;
+		top: 0px;
+	}
+	#Icon_awesome-user-alt_fr {
+		fill: rgba(66,132,188,1);
+	}
+	.Icon_awesome-user-alt_fr {
+		overflow: visible;
+		position: absolute;
+		width: 36px;
+		height: 36px;
+		left: 16.1px;
+		top: 12px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Patient_name_fs {
+		left: 60px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 131px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 21px;
+		color: rgba(36,114,179,1);
+	}
+	#Rectangle_57_ft {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_57_ft {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 33px;
+		top: 103px;
+	}
+	#Patient_id__fu {
+		opacity: 0.91;
+		left: 7px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 87px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_58_fv {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_58_fv {
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		height: 27px;
+		left: 130px;
+		top: 103px;
+	}
+	#____Ward__fw {
+		opacity: 0.91;
+		left: 95px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 72px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Start_Date__fx {
+		opacity: 0.91;
+		left: 186px;
+		top: 75px;
+		position: absolute;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(66,132,188,1);
+	}
+	#Rectangle_59_fy {
+		fill: rgba(255,255,255,1);
+		stroke: rgba(66,132,188,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Rectangle_59_fy {
+		position: absolute;
+		overflow: visible;
+		width: 60px;
+		height: 27px;
+		left: 216px;
+		top: 103px;
+	}
+	#Rectangle_60_fz {
+		fill: rgba(35,117,183,1);
+	}
+	.Rectangle_60_fz {
+		position: absolute;
+		overflow: visible;
+		width: 85px;
+		height: 38px;
+		left: 259px;
+		top: 12px;
+	}
+	#Status_f {
+		left: 277px;
+		top: 20px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		color: rgba(250,210,77,1);
+	}
+	#Ellipse_30_f {
+		fill: rgba(35,117,183,1);
+	}
+	.Ellipse_30_f {
+		position: absolute;
+		overflow: visible;
+		width: 32px;
+		height: 33px;
+		left: 310px;
+		top: 97px;
+	}
+	#Icon_ionic-ios-arrow-dropright_f {
+		fill: rgba(174,199,224,1);
+	}
+	.Icon_ionic-ios-arrow-dropright_f {
+		overflow: visible;
+		position: absolute;
+		width: 23.731px;
+		height: 23.731px;
+		left: 314px;
+		top: 101.634px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_609 {
+		fill: rgba(40,106,165,1);
+	}
+	.Path_609 {
+		overflow: visible;
+		position: absolute;
+		width: 126.5px;
+		height: 474.201px;
+		left: -26.25px;
+		top: 192px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ellipse_30_ga {
+		fill: rgba(136,174,207,1);
+	}
+	.Ellipse_30_ga {
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		height: 42px;
+		left: 24px;
+		top: 223px;
+	}
+	#Ellipse_30_gb {
+		fill: rgba(136,172,205,1);
+	}
+	.Ellipse_30_gb {
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		height: 42px;
+		left: 24px;
+		top: 309px;
+	}
+	#Ellipse_30_gc {
+		fill: rgba(136,172,205,1);
+	}
+	.Ellipse_30_gc {
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		height: 42px;
+		left: 24px;
+		top: 395px;
+	}
+	#Ellipse_30_gd {
+		fill: rgba(136,172,205,1);
+	}
+	.Ellipse_30_gd {
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		height: 42px;
+		left: 24px;
+		top: 481px;
+	}
+	#Ellipse_30_ge {
+		fill: rgba(136,172,205,1);
+	}
+	.Ellipse_30_ge {
+		position: absolute;
+		overflow: visible;
+		width: 42px;
+		height: 42px;
+		left: 24px;
+		top: 567px;
+	}
+	#Ward_f {
+		left: 28px;
+		top: 268px;
+		position: absolute;
+		overflow: visible;
+		width: 36px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(250,210,77,1);
+	}
+	#Section_ga {
+		left: 21px;
+		top: 351px;
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(250,210,77,1);
+	}
+	#Location_gb {
+		left: 17px;
+		top: 434px;
+		position: absolute;
+		overflow: visible;
+		width: 57px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(250,210,77,1);
+	}
+	#Sort_gc {
+		left: 32px;
+		top: 612px;
+		position: absolute;
+		overflow: visible;
+		width: 29px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(250,210,77,1);
+	}
+	#Department_gd {
+		left: 11px;
+		top: 523px;
+		position: absolute;
+		overflow: visible;
+		width: 81px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Segoe UI;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14px;
+		color: rgba(250,210,77,1);
+	}
+	#Icon_awesome-bed_ge {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-bed_ge {
+		overflow: visible;
+		position: absolute;
+		width: 30.787px;
+		height: 19.469px;
+		left: 30.606px;
+		top: 234.266px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#sections_gf {
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		left: 33px;
+		top: 320px;
+		overflow: visible;
+	}
+	#Path_599_gg {
+		fill: rgba(240,245,250,1);
+	}
+	.Path_599_gg {
+		overflow: visible;
+		position: absolute;
+		width: 11px;
+		height: 6px;
+		left: 13px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_600_gh {
+		fill: rgba(240,245,250,1);
+	}
+	.Path_600_gh {
+		overflow: visible;
+		position: absolute;
+		width: 11px;
+		height: 6px;
+		left: 13px;
+		top: 9px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_601_gi {
+		fill: rgba(240,245,250,1);
+	}
+	.Path_601_gi {
+		overflow: visible;
+		position: absolute;
+		width: 11px;
+		height: 6px;
+		left: 13px;
+		top: 18px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_602_gj {
+		fill: rgba(240,245,250,1);
+	}
+	.Path_602_gj {
+		overflow: visible;
+		position: absolute;
+		width: 11px;
+		height: 24px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_material-location-on_gk {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_material-location-on_gk {
+		overflow: visible;
+		position: absolute;
+		width: 21px;
+		height: 30px;
+		left: 35px;
+		top: 400px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Icon_awesome-building_gl {
+		fill: rgba(255,255,255,1);
+	}
+	.Icon_awesome-building_gl {
+		overflow: visible;
+		position: absolute;
+		width: 20.68px;
+		height: 23.635px;
+		left: 35.66px;
+		top: 490.183px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#sort-descending_1_gm {
+		position: absolute;
+		width: 23.794px;
+		height: 23.794px;
+		left: 33.603px;
+		top: 576.103px;
+		overflow: visible;
+	}
+	#Path_594_gn {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_594_gn {
+		overflow: visible;
+		position: absolute;
+		width: 9.806px;
+		height: 4.903px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_595_go {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_595_go {
+		overflow: visible;
+		position: absolute;
+		width: 14.468px;
+		height: 4.903px;
+		left: 0px;
+		top: 6.297px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_596_gp {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_596_gp {
+		overflow: visible;
+		position: absolute;
+		width: 19.131px;
+		height: 4.903px;
+		left: 0px;
+		top: 12.594px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_597_gq {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_597_gq {
+		overflow: visible;
+		position: absolute;
+		width: 23.794px;
+		height: 4.903px;
+		left: 0px;
+		top: 18.891px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_598_gr {
+		fill: rgba(255,255,255,1);
+	}
+	.Path_598_gr {
+		overflow: visible;
+		position: absolute;
+		width: 11.899px;
+		height: 6.97px;
+		left: 11.895px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#left-arrow_gs {
+		position: absolute;
+		width: 45px;
+		height: 45px;
+		left: 38.894px;
+		top: 15.497px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: view;
+		--web-action-target: Find_patient_desktop;
+		cursor: pointer;
+	}
+	#Ellipse_29_gt {
+		fill: rgba(255,212,0,1);
+	}
+	.Ellipse_29_gt {
+		position: absolute;
+		overflow: visible;
+		width: 45px;
+		height: 45px;
+		left: 0px;
+		top: 0px;
+	}
+	#Path_230_gu {
+		fill: rgba(255,159,0,1);
+	}
+	.Path_230_gu {
+		overflow: visible;
+		position: absolute;
+		width: 32.445px;
+		height: 26.535px;
+		left: 11.307px;
+		top: 16.768px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_231_gv {
+		fill: rgba(90,90,90,1);
+	}
+	.Path_231_gv {
+		overflow: visible;
+		position: absolute;
+		width: 24.87px;
+		height: 16.544px;
+		left: 10.262px;
+		top: 14.313px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_232_gw {
+		fill: rgba(43,59,78,1);
+	}
+	.Path_232_gw {
+		overflow: visible;
+		position: absolute;
+		width: 24.769px;
+		height: 8.171px;
+		left: 10.363px;
+		top: 22.686px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Arrow_138__gx {
+		position: absolute;
+		width: 37.994px;
+		height: 37.994px;
+		left: 1211.265px;
+		top: 15px;
+		overflow: visible;
+	}
+	#Group_174_gy {
+		position: absolute;
+		width: 36.542px;
+		height: 20.036px;
+		left: 1.452px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Group_173_gz {
+		position: absolute;
+		width: 36.542px;
+		height: 20.036px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_261_ha {
+		fill: url(#Path_261_ha);
+	}
+	.Path_261_ha {
+		overflow: visible;
+		position: absolute;
+		width: 36.542px;
+		height: 20.036px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_176_g {
+		position: absolute;
+		width: 36.544px;
+		height: 20.036px;
+		left: 0px;
+		top: 17.958px;
+		overflow: visible;
+	}
+	#Group_175_g {
+		position: absolute;
+		width: 36.544px;
+		height: 20.036px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_262_ha {
+		fill: url(#Path_262_ha);
+	}
+	.Path_262_ha {
+		overflow: visible;
+		position: absolute;
+		width: 36.544px;
+		height: 20.036px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#medical-record_2 {
+		position: absolute;
+		width: 70.238px;
+		height: 77.503px;
+		left: 439.381px;
+		top: 41.249px;
+		overflow: visible;
+	}
+	#Group_395 {
+		position: absolute;
+		width: 14.222px;
+		height: 60.536px;
+		left: 56.016px;
+		top: 10.377px;
+		overflow: visible;
+	}
+	#Group_393 {
+		position: absolute;
+		width: 2.308px;
+		height: 5.837px;
+		left: 3.572px;
+		top: 54.699px;
+		overflow: visible;
+	}
+	#Path_610 {
+		fill: rgba(73,112,144,1);
+	}
+	.Path_610 {
+		overflow: visible;
+		position: absolute;
+		width: 2.308px;
+		height: 5.837px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_611 {
+		fill: rgba(86,128,166,1);
+	}
+	.Path_611 {
+		overflow: visible;
+		position: absolute;
+		width: 4.78px;
+		height: 8.259px;
+		left: 2.336px;
+		top: 48.65px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_612 {
+		fill: rgba(153,230,252,1);
+	}
+	.Path_612 {
+		overflow: visible;
+		position: absolute;
+		width: 7.144px;
+		height: 18.268px;
+		left: 1.154px;
+		top: 31.92px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_613 {
+		fill: rgba(98,219,251,1);
+	}
+	.Path_613 {
+		overflow: visible;
+		position: absolute;
+		width: 3.078px;
+		height: 18.269px;
+		left: 1.155px;
+		top: 31.92px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_614 {
+		fill: rgba(253,128,135,1);
+	}
+	.Path_614 {
+		overflow: visible;
+		position: absolute;
+		width: 4.765px;
+		height: 6.304px;
+		left: 2.343px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_615 {
+		fill: rgba(250,210,77,1);
+	}
+	.Path_615 {
+		overflow: visible;
+		position: absolute;
+		width: 7.144px;
+		height: 28.694px;
+		left: 1.154px;
+		top: 4.765px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_616 {
+		fill: rgba(216,181,66,1);
+	}
+	.Path_616 {
+		overflow: visible;
+		position: absolute;
+		width: 3.078px;
+		height: 28.694px;
+		left: 1.155px;
+		top: 4.765px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_394 {
+		position: absolute;
+		width: 14.222px;
+		height: 16.648px;
+		left: 0px;
+		top: 8.406px;
+		overflow: visible;
+	}
+	#Path_617 {
+		fill: rgba(153,230,252,1);
+	}
+	.Path_617 {
+		overflow: visible;
+		position: absolute;
+		width: 14.222px;
+		height: 16.648px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_396 {
+		position: absolute;
+		width: 53.282px;
+		height: 77.503px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_618 {
+		fill: rgba(254,210,164,1);
+	}
+	.Path_618 {
+		overflow: visible;
+		position: absolute;
+		width: 53.282px;
+		height: 72.659px;
+		left: 0px;
+		top: 4.844px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_619 {
+		fill: rgba(255,189,134,1);
+	}
+	.Path_619 {
+		overflow: visible;
+		position: absolute;
+		width: 33.593px;
+		height: 4.845px;
+		left: 9.844px;
+		top: 4.844px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_620 {
+		fill: rgba(242,251,255,1);
+	}
+	.Path_620 {
+		overflow: visible;
+		position: absolute;
+		width: 43.595px;
+		height: 62.971px;
+		left: 4.844px;
+		top: 9.688px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_621 {
+		fill: rgba(223,246,253,1);
+	}
+	.Path_621 {
+		overflow: visible;
+		position: absolute;
+		width: 33.593px;
+		height: 5.533px;
+		left: 9.844px;
+		top: 9.688px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_622 {
+		fill: rgba(255,189,134,1);
+	}
+	.Path_622 {
+		overflow: visible;
+		position: absolute;
+		width: 3.119px;
+		height: 72.659px;
+		left: 0px;
+		top: 4.844px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_623 {
+		fill: rgba(223,246,253,1);
+	}
+	.Path_623 {
+		overflow: visible;
+		position: absolute;
+		width: 3.119px;
+		height: 62.971px;
+		left: 4.844px;
+		top: 9.688px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_624 {
+		fill: rgba(98,219,251,1);
+	}
+	.Path_624 {
+		overflow: visible;
+		position: absolute;
+		width: 27.354px;
+		height: 12.102px;
+		left: 12.964px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_625 {
+		fill: rgba(86,128,166,1);
+	}
+	.Path_625 {
+		overflow: visible;
+		position: absolute;
+		width: 2.469px;
+		height: 2.469px;
+		left: 25.406px;
+		top: 3.582px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_404 {
+		position: absolute;
+		width: 29.653px;
+		height: 18.652px;
+		left: 11.461px;
+		top: 47.015px;
+		overflow: visible;
+	}
+	#Group_397 {
+		position: absolute;
+		width: 17.898px;
+		height: 2.271px;
+		left: 11.755px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_626 {
+		fill: rgba(86,128,166,1);
+	}
+	.Path_626 {
+		overflow: visible;
+		position: absolute;
+		width: 17.898px;
+		height: 2.271px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_398 {
+		position: absolute;
+		width: 17.898px;
+		height: 2.271px;
+		left: 11.755px;
+		top: 4.702px;
+		overflow: visible;
+	}
+	#Path_627 {
+		fill: rgba(86,128,166,1);
+	}
+	.Path_627 {
+		overflow: visible;
+		position: absolute;
+		width: 17.898px;
+		height: 2.271px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_399 {
+		position: absolute;
+		width: 17.898px;
+		height: 2.271px;
+		left: 11.755px;
+		top: 9.404px;
+		overflow: visible;
+	}
+	#Path_628 {
+		fill: rgba(86,128,166,1);
+	}
+	.Path_628 {
+		overflow: visible;
+		position: absolute;
+		width: 17.898px;
+		height: 2.271px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_400 {
+		position: absolute;
+		width: 9.324px;
+		height: 2.271px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;
+	}
+	#Path_629 {
+		fill: rgba(86,128,166,1);
+	}
+	.Path_629 {
+		overflow: visible;
+		position: absolute;
+		width: 9.324px;
+		height: 2.271px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_401 {
+		position: absolute;
+		width: 9.324px;
+		height: 2.271px;
+		left: 0px;
+		top: 4.702px;
+		overflow: visible;
+	}
+	#Path_630 {
+		fill: rgba(86,128,166,1);
+	}
+	.Path_630 {
+		overflow: visible;
+		position: absolute;
+		width: 9.324px;
+		height: 2.271px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_402 {
+		position: absolute;
+		width: 9.324px;
+		height: 2.271px;
+		left: 0px;
+		top: 9.404px;
+		overflow: visible;
+	}
+	#Path_631 {
+		fill: rgba(86,128,166,1);
+	}
+	.Path_631 {
+		overflow: visible;
+		position: absolute;
+		width: 9.324px;
+		height: 2.271px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_403 {
+		position: absolute;
+		width: 11.121px;
+		height: 2.271px;
+		left: 18.286px;
+		top: 16.381px;
+		overflow: visible;
+	}
+	#Path_632 {
+		fill: rgba(86,128,166,1);
+	}
+	.Path_632 {
+		overflow: visible;
+		position: absolute;
+		width: 11.121px;
+		height: 2.271px;
+		left: 0px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Ellipse_56 {
+		fill: rgba(253,128,135,1);
+	}
+	.Ellipse_56 {
+		position: absolute;
+		overflow: visible;
+		width: 23.505px;
+		height: 23.505px;
+		left: 14.95px;
+		top: 17.588px;
+	}
+	#Path_633 {
+		fill: rgba(242,251,255,1);
+	}
+	.Path_633 {
+		overflow: visible;
+		position: absolute;
+		width: 14.106px;
+		height: 14.106px;
+		left: 19.65px;
+		top: 22.29px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+}
